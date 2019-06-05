@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546245A422230E8000B01402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546245A322230E8000B01402 /* AppDelegate.swift */; };
+		546245A622230E8000B01402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546245A522230E8000B01402 /* ViewController.swift */; };
+		546245A922230E8000B01402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546245A722230E8000B01402 /* Main.storyboard */; };
+		546245AB22230E8400B01402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546245AA22230E8400B01402 /* Assets.xcassets */; };
+		546245AE22230E8400B01402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546245AC22230E8400B01402 /* LaunchScreen.storyboard */; };
+		546245B922230E8400B01402 /* GPSxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546245B822230E8400B01402 /* GPSxTests.swift */; };
+		546245C422230E8400B01402 /* GPSxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546245C322230E8400B01402 /* GPSxUITests.swift */; };
+		546245D222230ED500B01402 /* Animal Park Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D122230ED500B01402 /* Animal Park Gym walk.gpx */; };
+		546245F122230EE500B01402 /* DT Leessquare6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D322230EDE00B01402 /* DT Leessquare6.gpx */; };
+		546245F222230EE500B01402 /* DT Olde Towne Gazebo.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D422230EDF00B01402 /* DT Olde Towne Gazebo.gpx */; };
+		546245F322230EE500B01402 /* BB ThomasClinton Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D522230EDF00B01402 /* BB ThomasClinton Gym.gpx */; };
+		546245F422230EE500B01402 /* DT St John.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D622230EDF00B01402 /* DT St John.gpx */; };
+		546245F522230EE500B01402 /* BB square Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D722230EDF00B01402 /* BB square Walk.gpx */; };
+		546245F622230EE500B01402 /* DT LeesWalk2Fast.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D822230EDF00B01402 /* DT LeesWalk2Fast.gpx */; };
+		546245F722230EE500B01402 /* DT LeesWalk2Drive.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245D922230EE000B01402 /* DT LeesWalk2Drive.gpx */; };
+		546245F822230EE500B01402 /* DT Mt Olive Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245DA22230EE000B01402 /* DT Mt Olive Gym.gpx */; };
+		546245F922230EE500B01402 /* DT Startbuck stop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245DB22230EE000B01402 /* DT Startbuck stop.gpx */; };
+		546245FA22230EE500B01402 /* DT George Town Park.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245DC22230EE000B01402 /* DT George Town Park.gpx */; };
+		546245FB22230EE500B01402 /* BB triple stops.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245DD22230EE000B01402 /* BB triple stops.gpx */; };
+		546245FC22230EE500B01402 /* BB Overlook Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245DE22230EE100B01402 /* BB Overlook Gym.gpx */; };
+		546245FD22230EE500B01402 /* BB Test.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245DF22230EE100B01402 /* BB Test.gpx */; };
+		546245FE22230EE500B01402 /* DT LeesburgWalk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E022230EE100B01402 /* DT LeesburgWalk.gpx */; };
+		546245FF22230EE500B01402 /* DT St James.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E122230EE100B01402 /* DT St James.gpx */; };
+		5462460022230EE500B01402 /* Cornerstone Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E222230EE100B01402 /* Cornerstone Gym.gpx */; };
+		5462460122230EE500B01402 /* FloodPlain Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E322230EE200B01402 /* FloodPlain Gym Walk.gpx */; };
+		5462460222230EE500B01402 /* BB 17 Mississippi Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E422230EE200B01402 /* BB 17 Mississippi Gym.gpx */; };
+		5462460322230EE500B01402 /* DT Raflo Park triple stops.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E522230EE200B01402 /* DT Raflo Park triple stops.gpx */; };
+		5462460422230EE500B01402 /* DT Bike Statue Stop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E622230EE200B01402 /* DT Bike Statue Stop.gpx */; };
+		5462460522230EE500B01402 /* BB New Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E722230EE200B01402 /* BB New Gym.gpx */; };
+		5462460622230EE500B01402 /* DT Dots Tree Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E822230EE300B01402 /* DT Dots Tree Gym.gpx */; };
+		5462460722230EE500B01402 /* DC1.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245E922230EE300B01402 /* DC1.gpx */; };
+		5462460822230EE500B01402 /* Dread Gazebo.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245EA22230EE300B01402 /* Dread Gazebo.gpx */; };
+		5462460922230EE500B01402 /* DT Thomas Library.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245EB22230EE300B01402 /* DT Thomas Library.gpx */; };
+		5462460A22230EE500B01402 /* DT LeesWalk2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245EC22230EE400B01402 /* DT LeesWalk2.gpx */; };
+		5462460B22230EE500B01402 /* DT Spankys.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245ED22230EE400B01402 /* DT Spankys.gpx */; };
+		5462460C22230EE500B01402 /* DT Stairmaster Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245EE22230EE400B01402 /* DT Stairmaster Gym.gpx */; };
+		5462460D22230EE500B01402 /* Del Rio Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245EF22230EE400B01402 /* Del Rio Gym Walk.gpx */; };
+		5462460E22230EE500B01402 /* DT Glorious Brick Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 546245F022230EE500B01402 /* DT Glorious Brick Gym.gpx */; };
+		5462463522230EEF00B01402 /* Nasvhille-3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462460F22230EE700B01402 /* Nasvhille-3.gpx */; };
+		5462463622230EEF00B01402 /* Red Rock Gyms walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461022230EE800B01402 /* Red Rock Gyms walk.gpx */; };
+		5462463722230EEF00B01402 /* Masked Battery Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461122230EE800B01402 /* Masked Battery Gym walk.gpx */; };
+		5462463822230EEF00B01402 /* IdaLee6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461222230EE800B01402 /* IdaLee6.gpx */; };
+		5462463922230EEF00B01402 /* POR A Canal home Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461322230EE800B01402 /* POR A Canal home Gym.gpx */; };
+		5462463A22230EEF00B01402 /* NRPA-parking.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461422230EE800B01402 /* NRPA-parking.gpx */; };
+		5462463B22230EEF00B01402 /* POR post office Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461522230EE900B01402 /* POR post office Gym Walk.gpx */; };
+		5462463C22230EEF00B01402 /* Red Rock stops.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461622230EE900B01402 /* Red Rock stops.gpx */; };
+		5462463D22230EEF00B01402 /* Temple Hall Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461722230EE900B01402 /* Temple Hall Gym Walk.gpx */; };
+		5462463E22230EEF00B01402 /* Twirling Tulips.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461822230EE900B01402 /* Twirling Tulips.gpx */; };
+		5462463F22230EEF00B01402 /* Morvan Swann Castle Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461922230EEA00B01402 /* Morvan Swann Castle Gym walk.gpx */; };
+		5462464022230EEF00B01402 /* Morvan Pool walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461A22230EEA00B01402 /* Morvan Pool walk.gpx */; };
+		5462464122230EEF00B01402 /* Nasvhille-2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461B22230EEA00B01402 /* Nasvhille-2.gpx */; };
+		5462464222230EEF00B01402 /* POR Creamery Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461C22230EEA00B01402 /* POR Creamery Gym.gpx */; };
+		5462464322230EEF00B01402 /* Morvan Park Fountain Stop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461D22230EEA00B01402 /* Morvan Park Fountain Stop.gpx */; };
+		5462464422230EEF00B01402 /* Morvan Civil War Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461E22230EEB00B01402 /* Morvan Civil War Gym walk.gpx */; };
+		5462464522230EEF00B01402 /* Rust Library Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462461F22230EEB00B01402 /* Rust Library Gym.gpx */; };
+		5462464622230EEF00B01402 /* NRPA.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462022230EEB00B01402 /* NRPA.gpx */; };
+		5462464722230EEF00B01402 /* POR tri stop Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462122230EEB00B01402 /* POR tri stop Walk.gpx */; };
+		5462464822230EEF00B01402 /* Hogback Horse Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462222230EEB00B01402 /* Hogback Horse Gym walk.gpx */; };
+		5462464922230EEF00B01402 /* Ida Lee Picnic Pavilion.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462322230EEC00B01402 /* Ida Lee Picnic Pavilion.gpx */; };
+		5462464A22230EEF00B01402 /* Rust Nature Sanctuary Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462422230EEC00B01402 /* Rust Nature Sanctuary Gym walk.gpx */; };
+		5462464B22230EEF00B01402 /* Somerset Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462522230EEC00B01402 /* Somerset Gym walk.gpx */; };
+		5462464C22230EEF00B01402 /* Ida Lee Park Tenis Center Statue.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462622230EEC00B01402 /* Ida Lee Park Tenis Center Statue.gpx */; };
+		5462464D22230EEF00B01402 /* World Trail Workout Station Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462722230EEC00B01402 /* World Trail Workout Station Gym.gpx */; };
+		5462464E22230EEF00B01402 /* Nashville.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462822230EED00B01402 /* Nashville.gpx */; };
+		5462464F22230EEF00B01402 /* POR Tunnel Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462922230EED00B01402 /* POR Tunnel Gym Walk.gpx */; };
+		5462465022230EEF00B01402 /* NRPA-gaz.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462A22230EED00B01402 /* NRPA-gaz.gpx */; };
+		5462465122230EEF00B01402 /* LDS Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462B22230EED00B01402 /* LDS Gym walk.gpx */; };
+		5462465222230EEF00B01402 /* Morvan Park triple Stop.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462C22230EED00B01402 /* Morvan Park triple Stop.gpx */; };
+		5462465322230EEF00B01402 /* Red Rock Gyms_Static.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462D22230EEE00B01402 /* Red Rock Gyms_Static.gpx */; };
+		5462465422230EEF00B01402 /* Plaza Street Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462E22230EEE00B01402 /* Plaza Street Gym.gpx */; };
+		5462465522230EEF00B01402 /* Water Tower Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462462F22230EEE00B01402 /* Water Tower Gym.gpx */; };
+		5462465622230EEF00B01402 /* Morvan Manor walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463022230EEE00B01402 /* Morvan Manor walk.gpx */; };
+		5462465722230EEF00B01402 /* Mt Zion Community Cemetery.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463122230EEE00B01402 /* Mt Zion Community Cemetery.gpx */; };
+		5462465822230EEF00B01402 /* Hogback West View Bird Gym walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463222230EEF00B01402 /* Hogback West View Bird Gym walk.gpx */; };
+		5462465922230EEF00B01402 /* POR Assembly of God Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463322230EEF00B01402 /* POR Assembly of God Gym Walk.gpx */; };
+		5462465A22230EEF00B01402 /* POR Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463422230EEF00B01402 /* POR Gym Walk.gpx */; };
+		54E0014322A40B0A00BDCBA6 /* RR Pool.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 54E0014222A40B0900BDCBA6 /* RR Pool.gpx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		546245B522230E8400B01402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5462459822230E8000B01402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5462459F22230E8000B01402;
+			remoteInfo = GPSx;
+		};
+		546245C022230E8400B01402 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5462459822230E8000B01402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5462459F22230E8000B01402;
+			remoteInfo = GPSx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546245A022230E8000B01402 /* GPSx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPSx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		546245A322230E8000B01402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		546245A522230E8000B01402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		546245A822230E8000B01402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546245AA22230E8400B01402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546245AD22230E8400B01402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		546245AF22230E8400B01402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546245B422230E8400B01402 /* GPSxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		546245B822230E8400B01402 /* GPSxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSxTests.swift; sourceTree = "<group>"; };
+		546245BA22230E8400B01402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546245BF22230E8400B01402 /* GPSxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		546245C322230E8400B01402 /* GPSxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSxUITests.swift; sourceTree = "<group>"; };
+		546245C522230E8400B01402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546245D122230ED500B01402 /* Animal Park Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Animal Park Gym walk.gpx"; path = "../Animal Park Gym walk.gpx"; sourceTree = "<group>"; };
+		546245D322230EDE00B01402 /* DT Leessquare6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT Leessquare6.gpx"; path = "../DT Leessquare6.gpx"; sourceTree = "<group>"; };
+		546245D422230EDF00B01402 /* DT Olde Towne Gazebo.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Olde Towne Gazebo.gpx"; path = "../DT Olde Towne Gazebo.gpx"; sourceTree = "<group>"; };
+		546245D522230EDF00B01402 /* BB ThomasClinton Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "BB ThomasClinton Gym.gpx"; path = "../BB ThomasClinton Gym.gpx"; sourceTree = "<group>"; };
+		546245D622230EDF00B01402 /* DT St John.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT St John.gpx"; path = "../DT St John.gpx"; sourceTree = "<group>"; };
+		546245D722230EDF00B01402 /* BB square Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "BB square Walk.gpx"; path = "../BB square Walk.gpx"; sourceTree = "<group>"; };
+		546245D822230EDF00B01402 /* DT LeesWalk2Fast.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT LeesWalk2Fast.gpx"; path = "../DT LeesWalk2Fast.gpx"; sourceTree = "<group>"; };
+		546245D922230EE000B01402 /* DT LeesWalk2Drive.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT LeesWalk2Drive.gpx"; path = "../DT LeesWalk2Drive.gpx"; sourceTree = "<group>"; };
+		546245DA22230EE000B01402 /* DT Mt Olive Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Mt Olive Gym.gpx"; path = "../DT Mt Olive Gym.gpx"; sourceTree = "<group>"; };
+		546245DB22230EE000B01402 /* DT Startbuck stop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Startbuck stop.gpx"; path = "../DT Startbuck stop.gpx"; sourceTree = "<group>"; };
+		546245DC22230EE000B01402 /* DT George Town Park.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT George Town Park.gpx"; path = "../DT George Town Park.gpx"; sourceTree = "<group>"; };
+		546245DD22230EE000B01402 /* BB triple stops.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "BB triple stops.gpx"; path = "../BB triple stops.gpx"; sourceTree = "<group>"; };
+		546245DE22230EE100B01402 /* BB Overlook Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "BB Overlook Gym.gpx"; path = "../BB Overlook Gym.gpx"; sourceTree = "<group>"; };
+		546245DF22230EE100B01402 /* BB Test.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "BB Test.gpx"; path = "../BB Test.gpx"; sourceTree = "<group>"; };
+		546245E022230EE100B01402 /* DT LeesburgWalk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT LeesburgWalk.gpx"; path = "../DT LeesburgWalk.gpx"; sourceTree = "<group>"; };
+		546245E122230EE100B01402 /* DT St James.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT St James.gpx"; path = "../DT St James.gpx"; sourceTree = "<group>"; };
+		546245E222230EE100B01402 /* Cornerstone Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Cornerstone Gym.gpx"; path = "../Cornerstone Gym.gpx"; sourceTree = "<group>"; };
+		546245E322230EE200B01402 /* FloodPlain Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "FloodPlain Gym Walk.gpx"; path = "../FloodPlain Gym Walk.gpx"; sourceTree = "<group>"; };
+		546245E422230EE200B01402 /* BB 17 Mississippi Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "BB 17 Mississippi Gym.gpx"; path = "../BB 17 Mississippi Gym.gpx"; sourceTree = "<group>"; };
+		546245E522230EE200B01402 /* DT Raflo Park triple stops.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Raflo Park triple stops.gpx"; path = "../DT Raflo Park triple stops.gpx"; sourceTree = "<group>"; };
+		546245E622230EE200B01402 /* DT Bike Statue Stop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Bike Statue Stop.gpx"; path = "../DT Bike Statue Stop.gpx"; sourceTree = "<group>"; };
+		546245E722230EE200B01402 /* BB New Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "BB New Gym.gpx"; path = "../BB New Gym.gpx"; sourceTree = "<group>"; };
+		546245E822230EE300B01402 /* DT Dots Tree Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Dots Tree Gym.gpx"; path = "../DT Dots Tree Gym.gpx"; sourceTree = "<group>"; };
+		546245E922230EE300B01402 /* DC1.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = DC1.gpx; path = ../DC1.gpx; sourceTree = "<group>"; };
+		546245EA22230EE300B01402 /* Dread Gazebo.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Dread Gazebo.gpx"; path = "../Dread Gazebo.gpx"; sourceTree = "<group>"; };
+		546245EB22230EE300B01402 /* DT Thomas Library.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT Thomas Library.gpx"; path = "../DT Thomas Library.gpx"; sourceTree = "<group>"; };
+		546245EC22230EE400B01402 /* DT LeesWalk2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT LeesWalk2.gpx"; path = "../DT LeesWalk2.gpx"; sourceTree = "<group>"; };
+		546245ED22230EE400B01402 /* DT Spankys.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT Spankys.gpx"; path = "../DT Spankys.gpx"; sourceTree = "<group>"; };
+		546245EE22230EE400B01402 /* DT Stairmaster Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Stairmaster Gym.gpx"; path = "../DT Stairmaster Gym.gpx"; sourceTree = "<group>"; };
+		546245EF22230EE400B01402 /* Del Rio Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Del Rio Gym Walk.gpx"; path = "../Del Rio Gym Walk.gpx"; sourceTree = "<group>"; };
+		546245F022230EE500B01402 /* DT Glorious Brick Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Glorious Brick Gym.gpx"; path = "../DT Glorious Brick Gym.gpx"; sourceTree = "<group>"; };
+		5462460F22230EE700B01402 /* Nasvhille-3.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Nasvhille-3.gpx"; path = "../Nasvhille-3.gpx"; sourceTree = "<group>"; };
+		5462461022230EE800B01402 /* Red Rock Gyms walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Red Rock Gyms walk.gpx"; path = "../Red Rock Gyms walk.gpx"; sourceTree = "<group>"; };
+		5462461122230EE800B01402 /* Masked Battery Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Masked Battery Gym walk.gpx"; path = "../Masked Battery Gym walk.gpx"; sourceTree = "<group>"; };
+		5462461222230EE800B01402 /* IdaLee6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = IdaLee6.gpx; path = ../IdaLee6.gpx; sourceTree = "<group>"; };
+		5462461322230EE800B01402 /* POR A Canal home Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR A Canal home Gym.gpx"; path = "../POR A Canal home Gym.gpx"; sourceTree = "<group>"; };
+		5462461422230EE800B01402 /* NRPA-parking.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NRPA-parking.gpx"; path = "../NRPA-parking.gpx"; sourceTree = "<group>"; };
+		5462461522230EE900B01402 /* POR post office Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR post office Gym Walk.gpx"; path = "../POR post office Gym Walk.gpx"; sourceTree = "<group>"; };
+		5462461622230EE900B01402 /* Red Rock stops.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Red Rock stops.gpx"; path = "../Red Rock stops.gpx"; sourceTree = "<group>"; };
+		5462461722230EE900B01402 /* Temple Hall Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Temple Hall Gym Walk.gpx"; path = "../Temple Hall Gym Walk.gpx"; sourceTree = "<group>"; };
+		5462461822230EE900B01402 /* Twirling Tulips.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Twirling Tulips.gpx"; path = "../Twirling Tulips.gpx"; sourceTree = "<group>"; };
+		5462461922230EEA00B01402 /* Morvan Swann Castle Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Morvan Swann Castle Gym walk.gpx"; path = "../Morvan Swann Castle Gym walk.gpx"; sourceTree = "<group>"; };
+		5462461A22230EEA00B01402 /* Morvan Pool walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Morvan Pool walk.gpx"; path = "../Morvan Pool walk.gpx"; sourceTree = "<group>"; };
+		5462461B22230EEA00B01402 /* Nasvhille-2.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Nasvhille-2.gpx"; path = "../Nasvhille-2.gpx"; sourceTree = "<group>"; };
+		5462461C22230EEA00B01402 /* POR Creamery Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR Creamery Gym.gpx"; path = "../POR Creamery Gym.gpx"; sourceTree = "<group>"; };
+		5462461D22230EEA00B01402 /* Morvan Park Fountain Stop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Morvan Park Fountain Stop.gpx"; path = "../Morvan Park Fountain Stop.gpx"; sourceTree = "<group>"; };
+		5462461E22230EEB00B01402 /* Morvan Civil War Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Morvan Civil War Gym walk.gpx"; path = "../Morvan Civil War Gym walk.gpx"; sourceTree = "<group>"; };
+		5462461F22230EEB00B01402 /* Rust Library Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Rust Library Gym.gpx"; path = "../Rust Library Gym.gpx"; sourceTree = "<group>"; };
+		5462462022230EEB00B01402 /* NRPA.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NRPA.gpx; path = ../NRPA.gpx; sourceTree = "<group>"; };
+		5462462122230EEB00B01402 /* POR tri stop Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR tri stop Walk.gpx"; path = "../POR tri stop Walk.gpx"; sourceTree = "<group>"; };
+		5462462222230EEB00B01402 /* Hogback Horse Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Hogback Horse Gym walk.gpx"; path = "../Hogback Horse Gym walk.gpx"; sourceTree = "<group>"; };
+		5462462322230EEC00B01402 /* Ida Lee Picnic Pavilion.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Ida Lee Picnic Pavilion.gpx"; path = "../Ida Lee Picnic Pavilion.gpx"; sourceTree = "<group>"; };
+		5462462422230EEC00B01402 /* Rust Nature Sanctuary Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Rust Nature Sanctuary Gym walk.gpx"; path = "../Rust Nature Sanctuary Gym walk.gpx"; sourceTree = "<group>"; };
+		5462462522230EEC00B01402 /* Somerset Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Somerset Gym walk.gpx"; path = "../Somerset Gym walk.gpx"; sourceTree = "<group>"; };
+		5462462622230EEC00B01402 /* Ida Lee Park Tenis Center Statue.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Ida Lee Park Tenis Center Statue.gpx"; path = "../Ida Lee Park Tenis Center Statue.gpx"; sourceTree = "<group>"; };
+		5462462722230EEC00B01402 /* World Trail Workout Station Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "World Trail Workout Station Gym.gpx"; path = "../World Trail Workout Station Gym.gpx"; sourceTree = "<group>"; };
+		5462462822230EED00B01402 /* Nashville.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Nashville.gpx; path = ../Nashville.gpx; sourceTree = "<group>"; };
+		5462462922230EED00B01402 /* POR Tunnel Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR Tunnel Gym Walk.gpx"; path = "../POR Tunnel Gym Walk.gpx"; sourceTree = "<group>"; };
+		5462462A22230EED00B01402 /* NRPA-gaz.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NRPA-gaz.gpx"; path = "../NRPA-gaz.gpx"; sourceTree = "<group>"; };
+		5462462B22230EED00B01402 /* LDS Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "LDS Gym walk.gpx"; path = "../LDS Gym walk.gpx"; sourceTree = "<group>"; };
+		5462462C22230EED00B01402 /* Morvan Park triple Stop.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Morvan Park triple Stop.gpx"; path = "../Morvan Park triple Stop.gpx"; sourceTree = "<group>"; };
+		5462462D22230EEE00B01402 /* Red Rock Gyms_Static.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Red Rock Gyms_Static.gpx"; path = "../Red Rock Gyms_Static.gpx"; sourceTree = "<group>"; };
+		5462462E22230EEE00B01402 /* Plaza Street Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Plaza Street Gym.gpx"; path = "../Plaza Street Gym.gpx"; sourceTree = "<group>"; };
+		5462462F22230EEE00B01402 /* Water Tower Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Water Tower Gym.gpx"; path = "../Water Tower Gym.gpx"; sourceTree = "<group>"; };
+		5462463022230EEE00B01402 /* Morvan Manor walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Morvan Manor walk.gpx"; path = "../Morvan Manor walk.gpx"; sourceTree = "<group>"; };
+		5462463122230EEE00B01402 /* Mt Zion Community Cemetery.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Mt Zion Community Cemetery.gpx"; path = "../Mt Zion Community Cemetery.gpx"; sourceTree = "<group>"; };
+		5462463222230EEF00B01402 /* Hogback West View Bird Gym walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Hogback West View Bird Gym walk.gpx"; path = "../Hogback West View Bird Gym walk.gpx"; sourceTree = "<group>"; };
+		5462463322230EEF00B01402 /* POR Assembly of God Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR Assembly of God Gym Walk.gpx"; path = "../POR Assembly of God Gym Walk.gpx"; sourceTree = "<group>"; };
+		5462463422230EEF00B01402 /* POR Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR Gym Walk.gpx"; path = "../POR Gym Walk.gpx"; sourceTree = "<group>"; };
+		54E0014222A40B0900BDCBA6 /* RR Pool.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RR Pool.gpx"; path = "../RR Pool.gpx"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5462459D22230E8000B01402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546245B122230E8400B01402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546245BC22230E8400B01402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5462459722230E8000B01402 = {
+			isa = PBXGroup;
+			children = (
+				546245D122230ED500B01402 /* Animal Park Gym walk.gpx */,
+				546245E422230EE200B01402 /* BB 17 Mississippi Gym.gpx */,
+				5462462222230EEB00B01402 /* Hogback Horse Gym walk.gpx */,
+				5462463222230EEF00B01402 /* Hogback West View Bird Gym walk.gpx */,
+				5462462622230EEC00B01402 /* Ida Lee Park Tenis Center Statue.gpx */,
+				5462462322230EEC00B01402 /* Ida Lee Picnic Pavilion.gpx */,
+				5462461222230EE800B01402 /* IdaLee6.gpx */,
+				5462462B22230EED00B01402 /* LDS Gym walk.gpx */,
+				5462461122230EE800B01402 /* Masked Battery Gym walk.gpx */,
+				5462461E22230EEB00B01402 /* Morvan Civil War Gym walk.gpx */,
+				5462463022230EEE00B01402 /* Morvan Manor walk.gpx */,
+				5462461D22230EEA00B01402 /* Morvan Park Fountain Stop.gpx */,
+				5462462C22230EED00B01402 /* Morvan Park triple Stop.gpx */,
+				5462461A22230EEA00B01402 /* Morvan Pool walk.gpx */,
+				5462461922230EEA00B01402 /* Morvan Swann Castle Gym walk.gpx */,
+				5462463122230EEE00B01402 /* Mt Zion Community Cemetery.gpx */,
+				5462462822230EED00B01402 /* Nashville.gpx */,
+				5462461B22230EEA00B01402 /* Nasvhille-2.gpx */,
+				5462460F22230EE700B01402 /* Nasvhille-3.gpx */,
+				5462462A22230EED00B01402 /* NRPA-gaz.gpx */,
+				5462461422230EE800B01402 /* NRPA-parking.gpx */,
+				5462462022230EEB00B01402 /* NRPA.gpx */,
+				5462462E22230EEE00B01402 /* Plaza Street Gym.gpx */,
+				5462461322230EE800B01402 /* POR A Canal home Gym.gpx */,
+				5462463322230EEF00B01402 /* POR Assembly of God Gym Walk.gpx */,
+				5462461C22230EEA00B01402 /* POR Creamery Gym.gpx */,
+				5462463422230EEF00B01402 /* POR Gym Walk.gpx */,
+				5462461522230EE900B01402 /* POR post office Gym Walk.gpx */,
+				5462462122230EEB00B01402 /* POR tri stop Walk.gpx */,
+				5462462922230EED00B01402 /* POR Tunnel Gym Walk.gpx */,
+				5462461022230EE800B01402 /* Red Rock Gyms walk.gpx */,
+				5462462D22230EEE00B01402 /* Red Rock Gyms_Static.gpx */,
+				5462461622230EE900B01402 /* Red Rock stops.gpx */,
+				5462461F22230EEB00B01402 /* Rust Library Gym.gpx */,
+				5462462422230EEC00B01402 /* Rust Nature Sanctuary Gym walk.gpx */,
+				5462462522230EEC00B01402 /* Somerset Gym walk.gpx */,
+				5462461722230EE900B01402 /* Temple Hall Gym Walk.gpx */,
+				5462461822230EE900B01402 /* Twirling Tulips.gpx */,
+				5462462F22230EEE00B01402 /* Water Tower Gym.gpx */,
+				5462462722230EEC00B01402 /* World Trail Workout Station Gym.gpx */,
+				546245E722230EE200B01402 /* BB New Gym.gpx */,
+				54E0014222A40B0900BDCBA6 /* RR Pool.gpx */,
+				546245DE22230EE100B01402 /* BB Overlook Gym.gpx */,
+				546245D722230EDF00B01402 /* BB square Walk.gpx */,
+				546245DF22230EE100B01402 /* BB Test.gpx */,
+				546245D522230EDF00B01402 /* BB ThomasClinton Gym.gpx */,
+				546245DD22230EE000B01402 /* BB triple stops.gpx */,
+				546245E222230EE100B01402 /* Cornerstone Gym.gpx */,
+				546245E922230EE300B01402 /* DC1.gpx */,
+				546245EF22230EE400B01402 /* Del Rio Gym Walk.gpx */,
+				546245EA22230EE300B01402 /* Dread Gazebo.gpx */,
+				546245E622230EE200B01402 /* DT Bike Statue Stop.gpx */,
+				546245E822230EE300B01402 /* DT Dots Tree Gym.gpx */,
+				546245DC22230EE000B01402 /* DT George Town Park.gpx */,
+				546245F022230EE500B01402 /* DT Glorious Brick Gym.gpx */,
+				546245E022230EE100B01402 /* DT LeesburgWalk.gpx */,
+				546245D322230EDE00B01402 /* DT Leessquare6.gpx */,
+				546245EC22230EE400B01402 /* DT LeesWalk2.gpx */,
+				546245D922230EE000B01402 /* DT LeesWalk2Drive.gpx */,
+				546245D822230EDF00B01402 /* DT LeesWalk2Fast.gpx */,
+				546245DA22230EE000B01402 /* DT Mt Olive Gym.gpx */,
+				546245D422230EDF00B01402 /* DT Olde Towne Gazebo.gpx */,
+				546245E522230EE200B01402 /* DT Raflo Park triple stops.gpx */,
+				546245ED22230EE400B01402 /* DT Spankys.gpx */,
+				546245E122230EE100B01402 /* DT St James.gpx */,
+				546245D622230EDF00B01402 /* DT St John.gpx */,
+				546245EE22230EE400B01402 /* DT Stairmaster Gym.gpx */,
+				546245DB22230EE000B01402 /* DT Startbuck stop.gpx */,
+				546245EB22230EE300B01402 /* DT Thomas Library.gpx */,
+				546245E322230EE200B01402 /* FloodPlain Gym Walk.gpx */,
+				546245A222230E8000B01402 /* GPSx */,
+				546245B722230E8400B01402 /* GPSxTests */,
+				546245C222230E8400B01402 /* GPSxUITests */,
+				546245A122230E8000B01402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546245A122230E8000B01402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546245A022230E8000B01402 /* GPSx.app */,
+				546245B422230E8400B01402 /* GPSxTests.xctest */,
+				546245BF22230E8400B01402 /* GPSxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546245A222230E8000B01402 /* GPSx */ = {
+			isa = PBXGroup;
+			children = (
+				546245A322230E8000B01402 /* AppDelegate.swift */,
+				546245A522230E8000B01402 /* ViewController.swift */,
+				546245A722230E8000B01402 /* Main.storyboard */,
+				546245AA22230E8400B01402 /* Assets.xcassets */,
+				546245AC22230E8400B01402 /* LaunchScreen.storyboard */,
+				546245AF22230E8400B01402 /* Info.plist */,
+			);
+			path = GPSx;
+			sourceTree = "<group>";
+		};
+		546245B722230E8400B01402 /* GPSxTests */ = {
+			isa = PBXGroup;
+			children = (
+				546245B822230E8400B01402 /* GPSxTests.swift */,
+				546245BA22230E8400B01402 /* Info.plist */,
+			);
+			path = GPSxTests;
+			sourceTree = "<group>";
+		};
+		546245C222230E8400B01402 /* GPSxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				546245C322230E8400B01402 /* GPSxUITests.swift */,
+				546245C522230E8400B01402 /* Info.plist */,
+			);
+			path = GPSxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5462459F22230E8000B01402 /* GPSx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546245C822230E8400B01402 /* Build configuration list for PBXNativeTarget "GPSx" */;
+			buildPhases = (
+				5462459C22230E8000B01402 /* Sources */,
+				5462459D22230E8000B01402 /* Frameworks */,
+				5462459E22230E8000B01402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPSx;
+			productName = GPSx;
+			productReference = 546245A022230E8000B01402 /* GPSx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546245B322230E8400B01402 /* GPSxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546245CB22230E8400B01402 /* Build configuration list for PBXNativeTarget "GPSxTests" */;
+			buildPhases = (
+				546245B022230E8400B01402 /* Sources */,
+				546245B122230E8400B01402 /* Frameworks */,
+				546245B222230E8400B01402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546245B622230E8400B01402 /* PBXTargetDependency */,
+			);
+			name = GPSxTests;
+			productName = GPSxTests;
+			productReference = 546245B422230E8400B01402 /* GPSxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		546245BE22230E8400B01402 /* GPSxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546245CE22230E8400B01402 /* Build configuration list for PBXNativeTarget "GPSxUITests" */;
+			buildPhases = (
+				546245BB22230E8400B01402 /* Sources */,
+				546245BC22230E8400B01402 /* Frameworks */,
+				546245BD22230E8400B01402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546245C122230E8400B01402 /* PBXTargetDependency */,
+			);
+			name = GPSxUITests;
+			productName = GPSxUITests;
+			productReference = 546245BF22230E8400B01402 /* GPSxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5462459822230E8000B01402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "James Cacioppo";
+				TargetAttributes = {
+					5462459F22230E8000B01402 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					546245B322230E8400B01402 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5462459F22230E8000B01402;
+					};
+					546245BE22230E8400B01402 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5462459F22230E8000B01402;
+					};
+				};
+			};
+			buildConfigurationList = 5462459B22230E8000B01402 /* Build configuration list for PBXProject "GPSx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5462459722230E8000B01402;
+			productRefGroup = 546245A122230E8000B01402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5462459F22230E8000B01402 /* GPSx */,
+				546245B322230E8400B01402 /* GPSxTests */,
+				546245BE22230E8400B01402 /* GPSxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5462459E22230E8000B01402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546245AE22230E8400B01402 /* LaunchScreen.storyboard in Resources */,
+				5462465422230EEF00B01402 /* Plaza Street Gym.gpx in Resources */,
+				5462465122230EEF00B01402 /* LDS Gym walk.gpx in Resources */,
+				5462460822230EE500B01402 /* Dread Gazebo.gpx in Resources */,
+				546245F422230EE500B01402 /* DT St John.gpx in Resources */,
+				5462465922230EEF00B01402 /* POR Assembly of God Gym Walk.gpx in Resources */,
+				5462460A22230EE500B01402 /* DT LeesWalk2.gpx in Resources */,
+				5462464922230EEF00B01402 /* Ida Lee Picnic Pavilion.gpx in Resources */,
+				546245FE22230EE500B01402 /* DT LeesburgWalk.gpx in Resources */,
+				5462460422230EE500B01402 /* DT Bike Statue Stop.gpx in Resources */,
+				546245FC22230EE500B01402 /* BB Overlook Gym.gpx in Resources */,
+				5462460C22230EE500B01402 /* DT Stairmaster Gym.gpx in Resources */,
+				546245F722230EE500B01402 /* DT LeesWalk2Drive.gpx in Resources */,
+				546245F122230EE500B01402 /* DT Leessquare6.gpx in Resources */,
+				5462464422230EEF00B01402 /* Morvan Civil War Gym walk.gpx in Resources */,
+				546245FB22230EE500B01402 /* BB triple stops.gpx in Resources */,
+				5462460622230EE500B01402 /* DT Dots Tree Gym.gpx in Resources */,
+				546245F222230EE500B01402 /* DT Olde Towne Gazebo.gpx in Resources */,
+				5462464022230EEF00B01402 /* Morvan Pool walk.gpx in Resources */,
+				5462463D22230EEF00B01402 /* Temple Hall Gym Walk.gpx in Resources */,
+				5462460D22230EE500B01402 /* Del Rio Gym Walk.gpx in Resources */,
+				5462460222230EE500B01402 /* BB 17 Mississippi Gym.gpx in Resources */,
+				5462464622230EEF00B01402 /* NRPA.gpx in Resources */,
+				5462464E22230EEF00B01402 /* Nashville.gpx in Resources */,
+				5462463A22230EEF00B01402 /* NRPA-parking.gpx in Resources */,
+				546245FD22230EE500B01402 /* BB Test.gpx in Resources */,
+				5462464322230EEF00B01402 /* Morvan Park Fountain Stop.gpx in Resources */,
+				5462465822230EEF00B01402 /* Hogback West View Bird Gym walk.gpx in Resources */,
+				5462464D22230EEF00B01402 /* World Trail Workout Station Gym.gpx in Resources */,
+				5462464722230EEF00B01402 /* POR tri stop Walk.gpx in Resources */,
+				5462463622230EEF00B01402 /* Red Rock Gyms walk.gpx in Resources */,
+				5462460922230EE500B01402 /* DT Thomas Library.gpx in Resources */,
+				54E0014322A40B0A00BDCBA6 /* RR Pool.gpx in Resources */,
+				5462460722230EE500B01402 /* DC1.gpx in Resources */,
+				5462463722230EEF00B01402 /* Masked Battery Gym walk.gpx in Resources */,
+				5462465A22230EEF00B01402 /* POR Gym Walk.gpx in Resources */,
+				5462464222230EEF00B01402 /* POR Creamery Gym.gpx in Resources */,
+				5462465022230EEF00B01402 /* NRPA-gaz.gpx in Resources */,
+				5462463F22230EEF00B01402 /* Morvan Swann Castle Gym walk.gpx in Resources */,
+				5462460122230EE500B01402 /* FloodPlain Gym Walk.gpx in Resources */,
+				5462463C22230EEF00B01402 /* Red Rock stops.gpx in Resources */,
+				5462460522230EE500B01402 /* BB New Gym.gpx in Resources */,
+				546245F822230EE500B01402 /* DT Mt Olive Gym.gpx in Resources */,
+				5462464A22230EEF00B01402 /* Rust Nature Sanctuary Gym walk.gpx in Resources */,
+				546245F522230EE500B01402 /* BB square Walk.gpx in Resources */,
+				546245F322230EE500B01402 /* BB ThomasClinton Gym.gpx in Resources */,
+				546245F922230EE500B01402 /* DT Startbuck stop.gpx in Resources */,
+				546245FA22230EE500B01402 /* DT George Town Park.gpx in Resources */,
+				546245D222230ED500B01402 /* Animal Park Gym walk.gpx in Resources */,
+				5462463822230EEF00B01402 /* IdaLee6.gpx in Resources */,
+				5462460022230EE500B01402 /* Cornerstone Gym.gpx in Resources */,
+				546245FF22230EE500B01402 /* DT St James.gpx in Resources */,
+				5462465222230EEF00B01402 /* Morvan Park triple Stop.gpx in Resources */,
+				546245F622230EE500B01402 /* DT LeesWalk2Fast.gpx in Resources */,
+				5462465522230EEF00B01402 /* Water Tower Gym.gpx in Resources */,
+				5462464122230EEF00B01402 /* Nasvhille-2.gpx in Resources */,
+				5462464822230EEF00B01402 /* Hogback Horse Gym walk.gpx in Resources */,
+				5462463522230EEF00B01402 /* Nasvhille-3.gpx in Resources */,
+				546245AB22230E8400B01402 /* Assets.xcassets in Resources */,
+				5462460322230EE500B01402 /* DT Raflo Park triple stops.gpx in Resources */,
+				546245A922230E8000B01402 /* Main.storyboard in Resources */,
+				5462464B22230EEF00B01402 /* Somerset Gym walk.gpx in Resources */,
+				5462464C22230EEF00B01402 /* Ida Lee Park Tenis Center Statue.gpx in Resources */,
+				5462460E22230EE500B01402 /* DT Glorious Brick Gym.gpx in Resources */,
+				5462464522230EEF00B01402 /* Rust Library Gym.gpx in Resources */,
+				5462465622230EEF00B01402 /* Morvan Manor walk.gpx in Resources */,
+				5462463B22230EEF00B01402 /* POR post office Gym Walk.gpx in Resources */,
+				5462465722230EEF00B01402 /* Mt Zion Community Cemetery.gpx in Resources */,
+				5462464F22230EEF00B01402 /* POR Tunnel Gym Walk.gpx in Resources */,
+				5462465322230EEF00B01402 /* Red Rock Gyms_Static.gpx in Resources */,
+				5462463E22230EEF00B01402 /* Twirling Tulips.gpx in Resources */,
+				5462460B22230EE500B01402 /* DT Spankys.gpx in Resources */,
+				5462463922230EEF00B01402 /* POR A Canal home Gym.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546245B222230E8400B01402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546245BD22230E8400B01402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5462459C22230E8000B01402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546245A622230E8000B01402 /* ViewController.swift in Sources */,
+				546245A422230E8000B01402 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546245B022230E8400B01402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546245B922230E8400B01402 /* GPSxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546245BB22230E8400B01402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546245C422230E8400B01402 /* GPSxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		546245B622230E8400B01402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5462459F22230E8000B01402 /* GPSx */;
+			targetProxy = 546245B522230E8400B01402 /* PBXContainerItemProxy */;
+		};
+		546245C122230E8400B01402 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5462459F22230E8000B01402 /* GPSx */;
+			targetProxy = 546245C022230E8400B01402 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		546245A722230E8000B01402 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546245A822230E8000B01402 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		546245AC22230E8400B01402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546245AD22230E8400B01402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546245C622230E8400B01402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		546245C722230E8400B01402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546245C922230E8400B01402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQJ99CZJ79;
+				INFOPLIST_FILE = GPSx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bondsdev.GPSx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		546245CA22230E8400B01402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QQJ99CZJ79;
+				INFOPLIST_FILE = GPSx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bondsdev.GPSx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		546245CC22230E8400B01402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPSxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bondsdev.GPSxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSx.app/GPSx";
+			};
+			name = Debug;
+		};
+		546245CD22230E8400B01402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPSxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bondsdev.GPSxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPSx.app/GPSx";
+			};
+			name = Release;
+		};
+		546245CF22230E8400B01402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPSxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bondsdev.GPSxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSx;
+			};
+			name = Debug;
+		};
+		546245D022230E8400B01402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GPSxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bondsdev.GPSxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GPSx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5462459B22230E8000B01402 /* Build configuration list for PBXProject "GPSx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546245C622230E8400B01402 /* Debug */,
+				546245C722230E8400B01402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546245C822230E8400B01402 /* Build configuration list for PBXNativeTarget "GPSx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546245C922230E8400B01402 /* Debug */,
+				546245CA22230E8400B01402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546245CB22230E8400B01402 /* Build configuration list for PBXNativeTarget "GPSxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546245CC22230E8400B01402 /* Debug */,
+				546245CD22230E8400B01402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546245CE22230E8400B01402 /* Build configuration list for PBXNativeTarget "GPSxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546245CF22230E8400B01402 /* Debug */,
+				546245D022230E8400B01402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5462459822230E8000B01402 /* Project object */;
+}

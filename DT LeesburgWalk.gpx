@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="GPS Visualizer http://www.gpsvisualizer.com/" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<wpt lat="39.1142423" lon="-77.5650919">
+  <name>5 Loudoun St SE, Leesburg, VA 20175, USA</name>
+  <sym>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</sym>
+</wpt>
+<trk>
+  <name>Directions from 5 Loudoun St SE, Leesburg, VA 20175, USA to 5 Loudoun St SE, Leesburg, VA 20175, USA</name>
+  <trkseg>
+    <trkpt lat="39.11424" lon="-77.56509"></trkpt>
+    <trkpt lat="39.11458" lon="-77.56492"></trkpt>
+    <trkpt lat="39.11483" lon="-77.56481"></trkpt>
+    <trkpt lat="39.11492" lon="-77.56477"></trkpt>
+    <trkpt lat="39.11545" lon="-77.56453"></trkpt>
+    <trkpt lat="39.11551" lon="-77.5645"></trkpt>
+    <trkpt lat="39.11572" lon="-77.5644"></trkpt>
+    <trkpt lat="39.11662" lon="-77.56399"></trkpt>
+    <trkpt lat="39.11705" lon="-77.56553"></trkpt>
+    <trkpt lat="39.11587" lon="-77.56607"></trkpt>
+    <trkpt lat="39.11514" lon="-77.5664"></trkpt>
+    <trkpt lat="39.11497" lon="-77.56648"></trkpt>
+    <trkpt lat="39.11466" lon="-77.56662"></trkpt>
+    <trkpt lat="39.1146" lon="-77.56642"></trkpt>
+    <trkpt lat="39.11455" lon="-77.56622"></trkpt>
+    <trkpt lat="39.11447" lon="-77.56595"></trkpt>
+    <trkpt lat="39.11439" lon="-77.56565"></trkpt>
+    <trkpt lat="39.11424" lon="-77.56509"></trkpt>
+  </trkseg>
+</trk>
+</gpx>
