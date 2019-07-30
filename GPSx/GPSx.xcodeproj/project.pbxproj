@@ -84,6 +84,8 @@
 		5462465922230EEF00B01402 /* POR Assembly of God Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463322230EEF00B01402 /* POR Assembly of God Gym Walk.gpx */; };
 		5462465A22230EEF00B01402 /* POR Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463422230EEF00B01402 /* POR Gym Walk.gpx */; };
 		54E0014322A40B0A00BDCBA6 /* RR Pool.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 54E0014222A40B0900BDCBA6 /* RR Pool.gpx */; };
+		9C5F440922CE5784002FBFCB /* Plymouth6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F440822CE5784002FBFCB /* Plymouth6.gpx */; };
+		9C77645422E5F2B200CF8295 /* herndon-spring-street-park.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C77645322E5F2B200CF8295 /* herndon-spring-street-park.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +189,8 @@
 		5462463322230EEF00B01402 /* POR Assembly of God Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR Assembly of God Gym Walk.gpx"; path = "../POR Assembly of God Gym Walk.gpx"; sourceTree = "<group>"; };
 		5462463422230EEF00B01402 /* POR Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR Gym Walk.gpx"; path = "../POR Gym Walk.gpx"; sourceTree = "<group>"; };
 		54E0014222A40B0900BDCBA6 /* RR Pool.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RR Pool.gpx"; path = "../RR Pool.gpx"; sourceTree = "<group>"; };
+		9C5F440822CE5784002FBFCB /* Plymouth6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Plymouth6.gpx; path = ../Plymouth6.gpx; sourceTree = "<group>"; };
+		9C77645322E5F2B200CF8295 /* herndon-spring-street-park.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "herndon-spring-street-park.gpx"; path = "../herndon-spring-street-park.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +277,8 @@
 				546245DC22230EE000B01402 /* DT George Town Park.gpx */,
 				546245F022230EE500B01402 /* DT Glorious Brick Gym.gpx */,
 				546245E022230EE100B01402 /* DT LeesburgWalk.gpx */,
+				9C5F440822CE5784002FBFCB /* Plymouth6.gpx */,
+				9C77645322E5F2B200CF8295 /* herndon-spring-street-park.gpx */,
 				546245D322230EDE00B01402 /* DT Leessquare6.gpx */,
 				546245EC22230EE400B01402 /* DT LeesWalk2.gpx */,
 				546245D922230EE000B01402 /* DT LeesWalk2Drive.gpx */,
@@ -440,6 +446,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				546245AE22230E8400B01402 /* LaunchScreen.storyboard in Resources */,
+				9C77645422E5F2B200CF8295 /* herndon-spring-street-park.gpx in Resources */,
 				5462465422230EEF00B01402 /* Plaza Street Gym.gpx in Resources */,
 				5462465122230EEF00B01402 /* LDS Gym walk.gpx in Resources */,
 				5462460822230EE500B01402 /* Dread Gazebo.gpx in Resources */,
@@ -489,6 +496,7 @@
 				546245FA22230EE500B01402 /* DT George Town Park.gpx in Resources */,
 				546245D222230ED500B01402 /* Animal Park Gym walk.gpx in Resources */,
 				5462463822230EEF00B01402 /* IdaLee6.gpx in Resources */,
+				9C5F440922CE5784002FBFCB /* Plymouth6.gpx in Resources */,
 				5462460022230EE500B01402 /* Cornerstone Gym.gpx in Resources */,
 				546245FF22230EE500B01402 /* DT St James.gpx in Resources */,
 				5462465222230EEF00B01402 /* Morvan Park triple Stop.gpx in Resources */,
