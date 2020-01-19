@@ -85,7 +85,10 @@
 		5462465A22230EEF00B01402 /* POR Gym Walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5462463422230EEF00B01402 /* POR Gym Walk.gpx */; };
 		54E0014322A40B0A00BDCBA6 /* RR Pool.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 54E0014222A40B0900BDCBA6 /* RR Pool.gpx */; };
 		9C5F440922CE5784002FBFCB /* Plymouth6.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C5F440822CE5784002FBFCB /* Plymouth6.gpx */; };
+		9C775B31232AA7FF00C5CEC1 /* on-the-fly.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C775B30232AA7FF00C5CEC1 /* on-the-fly.gpx */; };
 		9C77645422E5F2B200CF8295 /* herndon-spring-street-park.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C77645322E5F2B200CF8295 /* herndon-spring-street-park.gpx */; };
+		9C8E5F32238D7C7A0015B0BB /* DT Rotary Park Gym.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E5F31238D7C7A0015B0BB /* DT Rotary Park Gym.gpx */; };
+		9C8E5F34238D7D970015B0BB /* DT Mt Zion Church.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E5F33238D7D970015B0BB /* DT Mt Zion Church.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -190,7 +193,10 @@
 		5462463422230EEF00B01402 /* POR Gym Walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "POR Gym Walk.gpx"; path = "../POR Gym Walk.gpx"; sourceTree = "<group>"; };
 		54E0014222A40B0900BDCBA6 /* RR Pool.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "RR Pool.gpx"; path = "../RR Pool.gpx"; sourceTree = "<group>"; };
 		9C5F440822CE5784002FBFCB /* Plymouth6.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Plymouth6.gpx; path = ../Plymouth6.gpx; sourceTree = "<group>"; };
+		9C775B30232AA7FF00C5CEC1 /* on-the-fly.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "on-the-fly.gpx"; path = "../on-the-fly.gpx"; sourceTree = "<group>"; };
 		9C77645322E5F2B200CF8295 /* herndon-spring-street-park.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "herndon-spring-street-park.gpx"; path = "../herndon-spring-street-park.gpx"; sourceTree = "<group>"; };
+		9C8E5F31238D7C7A0015B0BB /* DT Rotary Park Gym.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "DT Rotary Park Gym.gpx"; path = "../DT Rotary Park Gym.gpx"; sourceTree = "<group>"; };
+		9C8E5F33238D7D970015B0BB /* DT Mt Zion Church.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "DT Mt Zion Church.gpx"; path = "../DT Mt Zion Church.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,6 +233,7 @@
 				5462463222230EEF00B01402 /* Hogback West View Bird Gym walk.gpx */,
 				5462462622230EEC00B01402 /* Ida Lee Park Tenis Center Statue.gpx */,
 				5462462322230EEC00B01402 /* Ida Lee Picnic Pavilion.gpx */,
+				9C775B30232AA7FF00C5CEC1 /* on-the-fly.gpx */,
 				5462461222230EE800B01402 /* IdaLee6.gpx */,
 				5462462B22230EED00B01402 /* LDS Gym walk.gpx */,
 				5462461122230EE800B01402 /* Masked Battery Gym walk.gpx */,
@@ -253,8 +260,10 @@
 				5462462922230EED00B01402 /* POR Tunnel Gym Walk.gpx */,
 				5462461022230EE800B01402 /* Red Rock Gyms walk.gpx */,
 				5462462D22230EEE00B01402 /* Red Rock Gyms_Static.gpx */,
+				9C8E5F31238D7C7A0015B0BB /* DT Rotary Park Gym.gpx */,
 				5462461622230EE900B01402 /* Red Rock stops.gpx */,
 				5462461F22230EEB00B01402 /* Rust Library Gym.gpx */,
+				9C8E5F33238D7D970015B0BB /* DT Mt Zion Church.gpx */,
 				5462462422230EEC00B01402 /* Rust Nature Sanctuary Gym walk.gpx */,
 				5462462522230EEC00B01402 /* Somerset Gym walk.gpx */,
 				5462461722230EE900B01402 /* Temple Hall Gym Walk.gpx */,
@@ -451,6 +460,7 @@
 				5462465122230EEF00B01402 /* LDS Gym walk.gpx in Resources */,
 				5462460822230EE500B01402 /* Dread Gazebo.gpx in Resources */,
 				546245F422230EE500B01402 /* DT St John.gpx in Resources */,
+				9C8E5F34238D7D970015B0BB /* DT Mt Zion Church.gpx in Resources */,
 				5462465922230EEF00B01402 /* POR Assembly of God Gym Walk.gpx in Resources */,
 				5462460A22230EE500B01402 /* DT LeesWalk2.gpx in Resources */,
 				5462464922230EEF00B01402 /* Ida Lee Picnic Pavilion.gpx in Resources */,
@@ -471,6 +481,7 @@
 				5462464622230EEF00B01402 /* NRPA.gpx in Resources */,
 				5462464E22230EEF00B01402 /* Nashville.gpx in Resources */,
 				5462463A22230EEF00B01402 /* NRPA-parking.gpx in Resources */,
+				9C775B31232AA7FF00C5CEC1 /* on-the-fly.gpx in Resources */,
 				546245FD22230EE500B01402 /* BB Test.gpx in Resources */,
 				5462464322230EEF00B01402 /* Morvan Park Fountain Stop.gpx in Resources */,
 				5462465822230EEF00B01402 /* Hogback West View Bird Gym walk.gpx in Resources */,
@@ -503,6 +514,7 @@
 				546245F622230EE500B01402 /* DT LeesWalk2Fast.gpx in Resources */,
 				5462465522230EEF00B01402 /* Water Tower Gym.gpx in Resources */,
 				5462464122230EEF00B01402 /* Nasvhille-2.gpx in Resources */,
+				9C8E5F32238D7C7A0015B0BB /* DT Rotary Park Gym.gpx in Resources */,
 				5462464822230EEF00B01402 /* Hogback Horse Gym walk.gpx in Resources */,
 				5462463522230EEF00B01402 /* Nasvhille-3.gpx in Resources */,
 				546245AB22230E8400B01402 /* Assets.xcassets in Resources */,
